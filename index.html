@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Miguel Santiago — Resume</title>
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link
+      href="https://fonts.bunny.net/css?family=inter:400,500,600,700|jetbrains-mono:400"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+              mono: ["JetBrains Mono", "ui-monospace", "monospace"],
+            },
+            colors: {
+              latte: {
+                rosewater: "#dc8a78",
+                flamingo: "#dd7878",
+                pink: "#ea76cb",
+                mauve: "#8839ef",
+                red: "#d20f39",
+                maroon: "#e64553",
+                peach: "#fe640b",
+                yellow: "#df8e1d",
+                green: "#40a02b",
+                teal: "#179299",
+                sky: "#04a5e5",
+                sapphire: "#209fb5",
+                blue: "#1e66f5",
+                lavender: "#7287fd",
+                text: "#4c4f69",
+                subtext1: "#5c5f77",
+                subtext0: "#6c6f85",
+                overlay2: "#7c7f93",
+                overlay1: "#8c8fa1",
+                overlay0: "#9ca0b0",
+                surface2: "#acb0be",
+                surface1: "#bcc0cc",
+                surface0: "#ccd0da",
+                base: "#eff1f5",
+                mantle: "#e6e9ef",
+                crust: "#dce0e8",
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-latte-base text-latte-text min-h-screen font-sans">
+    <div class="max-w-4xl mx-auto px-6 py-12 sm:py-16">
+      <!-- Header -->
+      <header
+        class="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-12"
+      >
+        <div
+          class="w-36 h-36 rounded-full bg-latte-surface0 border-4 border-latte-lavender flex items-center justify-center shrink-0 overflow-hidden"
+        >
+          <img
+            src="images/portrait.jpg"
+            alt="Miguel Santiago"
+            class="w-full h-full object-cover"
+          />
+          <path
+            d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"
+          />
+        </div>
+
+        <div class="text-center sm:text-left">
+          <h1 class="text-4xl font-bold text-latte-text tracking-tight">
+            Miguel Santiago
+          </h1>
+          <p class="text-lg text-latte-mauve font-medium mt-1">
+            Software Engineer
+          </p>
+          <div
+            class="flex flex-wrap justify-center sm:justify-start gap-x-4 gap-y-1 mt-3 text-sm text-latte-subtext0"
+          >
+            <span>miguel.santiago.eng@gmail.com</span>
+            <span>·</span>
+            <span>204-698-7944</span>
+            <span>·</span>
+            <a
+              href="#"
+              class="text-latte-blue hover:text-latte-sapphire transition-colors"
+              >LinkedIn</a
+            >
+            <span>·</span>
+            <a
+              href="#"
+              class="text-latte-blue hover:text-latte-sapphire transition-colors"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </header>
+
+      <!-- Education -->
+      <section class="mb-10">
+        <h2
+          class="text-xl font-semibold text-latte-mauve border-b-2 border-latte-surface0 pb-2 mb-4"
+        >
+          Education
+        </h2>
+        <div>
+          <div
+            class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between"
+          >
+            <h3 class="font-semibold text-latte-text">
+              Bachelor of Science in Computer Engineering
+            </h3>
+            <span class="text-sm text-latte-overlay1 font-mono"
+              >Graduated May 2026</span
+            >
+          </div>
+          <p class="text-latte-sapphire text-sm font-medium">
+            University of Manitoba — Co-op/IIP Option
+          </p>
+        </div>
+      </section>
+
+      <!-- Technical Skills -->
+      <section class="mb-10">
+        <h2
+          class="text-xl font-semibold text-latte-mauve border-b-2 border-latte-surface0 pb-2 mb-4"
+        >
+          Technical Skills
+        </h2>
+        <div class="space-y-3 text-sm">
+          <div>
+            <span class="font-semibold text-latte-subtext0">Languages</span>
+            <div class="flex flex-wrap gap-1.5 mt-1">
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                >Java</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                >JavaScript</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                >TypeScript</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                >SQL</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                >Python</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                >C/C++</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                >PHP</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                >HTML/CSS</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                >Bash</span
+              >
+            </div>
+          </div>
+          <div>
+            <span class="font-semibold text-latte-subtext0"
+              >Frameworks &amp; Libraries</span
+            >
+            <div class="flex flex-wrap gap-1.5 mt-1">
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >Spring Boot</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >Jakarta Persistence (JPA)</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >React</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >React Router</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >Angular</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >Laravel</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >Node.js</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >JUnit</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >TensorFlow/Keras</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >NumPy</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                >pandas</span
+              >
+            </div>
+          </div>
+          <div>
+            <span class="font-semibold text-latte-subtext0"
+              >Tools &amp; Platforms</span
+            >
+            <div class="flex flex-wrap gap-1.5 mt-1">
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >Docker</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >Git</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >GitHub</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >GitLab</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >MySQL</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >REST APIs</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >GraphQL</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >Shopify GraphQL Admin API</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >Shopify Billing API</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >Linux</span
+              >
+              <span
+                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                >Agile/Scrum</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work Experience -->
+      <section class="mb-10">
+        <h2
+          class="text-xl font-semibold text-latte-mauve border-b-2 border-latte-surface0 pb-2 mb-4"
+        >
+          Work Experience
+        </h2>
+
+        <div class="space-y-8">
+          <!-- En Login -->
+          <div>
+            <div
+              class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between"
+            >
+              <h3 class="font-semibold text-latte-text">Software Engineer</h3>
+              <span class="text-sm text-latte-overlay1 font-mono"
+                >Sept 2025 — Present</span
+              >
+            </div>
+            <p class="text-latte-sapphire text-sm font-medium">
+              En Login Inc · Remote
+            </p>
+            <ul
+              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+            >
+              <li>
+                Contributed to architectural decisions on a greenfield SaaS
+                platform, shaping data models, RESTful API contracts, and
+                frontend structure from the ground up
+              </li>
+              <li>
+                Designed MySQL schemas tracking resource creation, modification,
+                and deletion across forecasting and inventory modules. Refined
+                schemas, API controllers, and frontend components as product
+                requirements evolved
+              </li>
+              <li>
+                Developed RESTful APIs in Java with Spring Boot and Jakarta
+                Persistence (JPA), exposing inventory and forecast data to the
+                frontend
+              </li>
+              <li>
+                Built interactive React frontend features and integrated them
+                with backend services, incorporating pilot user feedback to
+                improve usability across forecasting and inventory modules
+              </li>
+              <li>
+                Developed settings, per-item customizable inventory alerts, and
+                subscription billing for a Shopify embedded app using
+                TypeScript, React Router, Shopify's GraphQL Admin API, and the
+                Shopify Billing API
+              </li>
+              <li>
+                Conducted code reviews in team meetings to ensure code quality,
+                consistency, and adherence to project standards
+              </li>
+              <li>
+                Defined and scoped developer tasks to organize feature
+                development and coordinate work across the team in an Agile
+                workflow
+              </li>
+              <li>
+                Authored technical documentation covering system design, data
+                models, and API specifications to support onboarding and
+                long-term maintainability
+              </li>
+            </ul>
+          </div>
+
+          <!-- Parker Hannifin -->
+          <div>
+            <div
+              class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between"
+            >
+              <h3 class="font-semibold text-latte-text">Engineering Intern</h3>
+              <span class="text-sm text-latte-overlay1 font-mono"
+                >May 2024 — Aug 2025</span
+              >
+            </div>
+            <p class="text-latte-sapphire text-sm font-medium">
+              Parker Hannifin Corp · Winnipeg, MB
+            </p>
+            <ul
+              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+            >
+              <li>
+                Authored an automated Python log parser to process testing data
+                across 2000+ units, identifying failure patterns and reducing
+                manual testing time by 80%, and communicated insights to
+                engineering stakeholders
+              </li>
+              <li>
+                Root-caused a product-freeze defect by replicating the failure,
+                isolating a missing pull-up resistor on the UART Rx line, and
+                specifying a software workaround that avoided a costly board
+                redesign
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="mb-10">
+        <h2
+          class="text-xl font-semibold text-latte-mauve border-b-2 border-latte-surface0 pb-2 mb-4"
+        >
+          Projects
+        </h2>
+        <div class="space-y-6">
+          <div
+            class="rounded-lg border border-latte-surface1 bg-latte-mantle p-5"
+          >
+            <h3 class="font-semibold text-latte-text">
+              Contact Manager Dashboard
+            </h3>
+            <div class="flex flex-wrap gap-1.5 mt-2">
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >Angular</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >TypeScript</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >Laravel</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >MySQL</span
+              >
+            </div>
+            <ul
+              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+            >
+              <li>
+                Built a full-stack CRUD application for managing contacts,
+                featuring search, filtering, and form validation
+              </li>
+              <li>
+                Developed a RESTful API backend in Laravel with Eloquent ORM for
+                persistent storage in MySQL
+              </li>
+              <li>
+                Documented data model and API endpoints to support future
+                handoff and maintenance
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="rounded-lg border border-latte-surface1 bg-latte-mantle p-5"
+          >
+            <h3 class="font-semibold text-latte-text">
+              Client-Server Communication System
+            </h3>
+            <div class="flex flex-wrap gap-1.5 mt-2">
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >C</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >Java</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >Android Studio</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >PIC32MX7</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >TCP</span
+              >
+            </div>
+            <ul
+              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+            >
+              <li>
+                Designed and implemented a TCP-based client-server system
+                supporting concurrent connections and bidirectional
+                communication
+              </li>
+              <li>
+                Developed a multi-threaded Java client to asynchronously handle
+                server messages, user input, and connection status
+              </li>
+              <li>
+                Refactored embedded server firmware in C on a PIC32MX7
+                microcontroller, implementing a cooperative multitasking state
+                machine to improve task scheduling and responsiveness
+              </li>
+              <li>
+                Built an Android client with real-time visualization of
+                networked system state and sensor data
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="rounded-lg border border-latte-surface1 bg-latte-mantle p-5"
+          >
+            <h3 class="font-semibold text-latte-text">
+              Real-time Object Detection System
+            </h3>
+            <div class="flex flex-wrap gap-1.5 mt-2">
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >Python</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >Ultralytics YOLOv26s</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >OpenCV</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >ESP32</span
+              >
+            </div>
+            <ul
+              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+            >
+              <li>
+                Trained a YOLOv26s model on a custom two-class dataset for
+                real-time inference
+              </li>
+              <li>
+                Built a Python inference pipeline with OpenCV for webcam input,
+                detecting whether a target class appears at center of frame
+              </li>
+              <li>
+                Integrated serial communication with an ESP32 to trigger
+                hardware actions based on detection
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="rounded-lg border border-latte-surface1 bg-latte-mantle p-5"
+          >
+            <div
+              class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between"
+            >
+              <h3 class="font-semibold text-latte-text">
+                Communication System for Deaf Curlers
+              </h3>
+              <span class="text-sm text-latte-overlay1"
+                >Awarded Best Design</span
+              >
+            </div>
+            <div class="flex flex-wrap gap-1.5 mt-2">
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >Arduino</span
+              >
+              <span
+                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                >ESP32</span
+              >
+            </div>
+            <ul
+              class="mt-3 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+            >
+              <li>
+                Designed and developed an assistive communication system for
+                deaf curlers enabling real-time gameplay coordination
+              </li>
+              <li>
+                Implemented 2-way wireless communication using a low-power
+                2.4GHz protocol on ESP32
+              </li>
+              <li>
+                Designed and implemented state-based control logic for the skip
+                controller, translating user input into structured commands for
+                real-time communication during gameplay
+              </li>
+            </ul>
+            <div class="grid grid-cols-2 gap-3 mt-3">
+              <figure>
+                <img
+                  src="images/skip-controller.jpg"
+                  alt="Skip controller — 3D-printed enclosure with OLED display and joystick"
+                  class="rounded-md border border-latte-surface1 w-full aspect-square object-cover"
+                />
+                <figcaption class="text-xs text-latte-overlay1 mt-1 text-center">Skip Controller</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="images/sweep-receiver.jpg"
+                  alt="Sweep receiver mounted on curling broom with LED bar graph"
+                  class="rounded-md border border-latte-surface1 w-full aspect-square object-cover"
+                />
+                <figcaption class="text-xs text-latte-overlay1 mt-1 text-center">Sweep Receiver</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-latte-surface0 mt-8">
+      <div
+        class="max-w-4xl mx-auto px-6 py-6 text-center text-sm text-latte-overlay1"
+      >
+        <p>Built with Tailwind CSS — Catpuccin Latte</p>
+      </div>
+    </footer>
+  </body>
+</html>
