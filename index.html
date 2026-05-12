@@ -19,33 +19,28 @@
               mono: ["JetBrains Mono", "ui-monospace", "monospace"],
             },
             colors: {
-              latte: {
-                rosewater: "#dc8a78",
-                flamingo: "#dd7878",
-                pink: "#ea76cb",
-                mauve: "#8839ef",
-                red: "#d20f39",
-                maroon: "#e64553",
-                peach: "#fe640b",
-                yellow: "#df8e1d",
-                green: "#40a02b",
-                teal: "#179299",
-                sky: "#04a5e5",
-                sapphire: "#209fb5",
-                blue: "#1e66f5",
-                lavender: "#7287fd",
-                text: "#4c4f69",
-                subtext1: "#5c5f77",
-                subtext0: "#6c6f85",
-                overlay2: "#7c7f93",
-                overlay1: "#8c8fa1",
-                overlay0: "#9ca0b0",
-                surface2: "#acb0be",
-                surface1: "#bcc0cc",
-                surface0: "#ccd0da",
-                base: "#eff1f5",
-                mantle: "#e6e9ef",
-                crust: "#dce0e8",
+              tn: {
+                red: "#f7768e",
+                orange: "#ff9e64",
+                yellow: "#e0af68",
+                green: "#9ece6a",
+                teal: "#73daca",
+                cyan: "#7dcfff",
+                blue: "#7aa2f7",
+                purple: "#bb9af7",
+                magenta: "#ff007c",
+                text: "#c0caf5",
+                subtext1: "#a9b1d6",
+                subtext0: "#9aa5ce",
+                overlay2: "#787c99",
+                overlay1: "#565f89",
+                overlay0: "#414868",
+                surface2: "#3b4261",
+                surface1: "#292e42",
+                surface0: "#232433",
+                base: "#1a1b26",
+                mantle: "#16161e",
+                crust: "#13131a",
               },
             },
           },
@@ -53,14 +48,14 @@
       };
     </script>
   </head>
-  <body class="bg-latte-base text-latte-text min-h-screen font-sans">
+  <body class="bg-tn-base text-tn-text min-h-screen font-sans">
     <div class="max-w-4xl mx-auto px-6 py-12 sm:py-16">
       <!-- Header -->
       <header
         class="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-12"
       >
         <div
-          class="w-36 h-36 rounded-full bg-latte-surface0 border-4 border-latte-lavender flex items-center justify-center shrink-0 overflow-hidden"
+          class="w-36 h-36 rounded-full bg-tn-surface0 border-4 border-tn-blue flex items-center justify-center shrink-0 overflow-hidden"
         >
           <img
             src="images/portrait.jpg"
@@ -73,14 +68,14 @@
         </div>
 
         <div class="text-center sm:text-left">
-          <h1 class="text-4xl font-bold text-latte-text tracking-tight">
+          <h1 class="text-4xl font-bold text-tn-text tracking-tight">
             Miguel Santiago
           </h1>
-          <p class="text-lg text-latte-mauve font-medium mt-1">
+          <p class="text-lg text-tn-purple font-medium mt-1">
             Software Engineer
           </p>
           <div
-            class="flex flex-wrap justify-center sm:justify-start gap-x-4 gap-y-1 mt-3 text-sm text-latte-subtext0"
+            class="flex flex-wrap justify-center sm:justify-start gap-x-4 gap-y-1 mt-3 text-sm text-tn-subtext0"
           >
             <span>miguel.santiago.eng@gmail.com</span>
             <span>·</span>
@@ -88,13 +83,13 @@
             <span>·</span>
             <a
               href="#"
-              class="text-latte-blue hover:text-latte-sapphire transition-colors"
+              class="text-tn-blue hover:text-tn-cyan transition-colors"
               >LinkedIn</a
             >
             <span>·</span>
             <a
               href="#"
-              class="text-latte-blue hover:text-latte-sapphire transition-colors"
+              class="text-tn-blue hover:text-tn-cyan transition-colors"
               >GitHub</a
             >
           </div>
@@ -104,7 +99,7 @@
       <!-- Education -->
       <section class="mb-10">
         <h2
-          class="text-xl font-semibold text-latte-mauve border-b-2 border-latte-surface0 pb-2 mb-4"
+          class="text-xl font-semibold text-tn-purple border-b-2 border-tn-surface0 pb-2 mb-4"
         >
           Education
         </h2>
@@ -112,14 +107,14 @@
           <div
             class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between"
           >
-            <h3 class="font-semibold text-latte-text">
+            <h3 class="font-semibold text-tn-text">
               Bachelor of Science in Computer Engineering
             </h3>
-            <span class="text-sm text-latte-overlay1 font-mono"
+            <span class="text-sm text-tn-overlay1 font-mono"
               >Graduated May 2026</span
             >
           </div>
-          <p class="text-latte-sapphire text-sm font-medium">
+          <p class="text-tn-cyan text-sm font-medium">
             University of Manitoba — Co-op/IIP Option
           </p>
         </div>
@@ -128,150 +123,150 @@
       <!-- Technical Skills -->
       <section class="mb-10">
         <h2
-          class="text-xl font-semibold text-latte-mauve border-b-2 border-latte-surface0 pb-2 mb-4"
+          class="text-xl font-semibold text-tn-purple border-b-2 border-tn-surface0 pb-2 mb-4"
         >
           Technical Skills
         </h2>
         <div class="space-y-3 text-sm">
           <div>
-            <span class="font-semibold text-latte-subtext0">Languages</span>
+            <span class="font-semibold text-tn-subtext0">Languages</span>
             <div class="flex flex-wrap gap-1.5 mt-1">
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-blue border border-tn-surface1"
                 >Java</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-blue border border-tn-surface1"
                 >JavaScript</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-blue border border-tn-surface1"
                 >TypeScript</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-blue border border-tn-surface1"
                 >SQL</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-blue border border-tn-surface1"
                 >Python</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-blue border border-tn-surface1"
                 >C/C++</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-blue border border-tn-surface1"
                 >PHP</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-blue border border-tn-surface1"
                 >HTML/CSS</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-blue border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-blue border border-tn-surface1"
                 >Bash</span
               >
             </div>
           </div>
           <div>
-            <span class="font-semibold text-latte-subtext0"
+            <span class="font-semibold text-tn-subtext0"
               >Frameworks &amp; Libraries</span
             >
             <div class="flex flex-wrap gap-1.5 mt-1">
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >Spring Boot</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >Jakarta Persistence (JPA)</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >React</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >React Router</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >Angular</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >Laravel</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >Node.js</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >JUnit</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >TensorFlow/Keras</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >NumPy</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-teal border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-teal border border-tn-surface1"
                 >pandas</span
               >
             </div>
           </div>
           <div>
-            <span class="font-semibold text-latte-subtext0"
+            <span class="font-semibold text-tn-subtext0"
               >Tools &amp; Platforms</span
             >
             <div class="flex flex-wrap gap-1.5 mt-1">
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >Docker</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >Git</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >GitHub</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >GitLab</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >MySQL</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >REST APIs</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >GraphQL</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >Shopify GraphQL Admin API</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >Shopify Billing API</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >Linux</span
               >
               <span
-                class="px-2.5 py-0.5 rounded-full bg-latte-mantle text-latte-sapphire border border-latte-surface1"
+                class="px-2.5 py-0.5 rounded-full bg-tn-mantle text-tn-cyan border border-tn-surface1"
                 >Agile/Scrum</span
               >
             </div>
@@ -282,7 +277,7 @@
       <!-- Work Experience -->
       <section class="mb-10">
         <h2
-          class="text-xl font-semibold text-latte-mauve border-b-2 border-latte-surface0 pb-2 mb-4"
+          class="text-xl font-semibold text-tn-purple border-b-2 border-tn-surface0 pb-2 mb-4"
         >
           Work Experience
         </h2>
@@ -293,16 +288,16 @@
             <div
               class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between"
             >
-              <h3 class="font-semibold text-latte-text">Software Engineer</h3>
-              <span class="text-sm text-latte-overlay1 font-mono"
+              <h3 class="font-semibold text-tn-text">Software Engineer</h3>
+              <span class="text-sm text-tn-overlay1 font-mono"
                 >Sept 2025 — Present</span
               >
             </div>
-            <p class="text-latte-sapphire text-sm font-medium">
+            <p class="text-tn-cyan text-sm font-medium">
               En Login Inc · Remote
             </p>
             <ul
-              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+              class="mt-2 space-y-1 text-sm text-tn-subtext1 list-disc list-inside"
             >
               <li>
                 Contributed to architectural decisions on a greenfield SaaS
@@ -353,16 +348,16 @@
             <div
               class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between"
             >
-              <h3 class="font-semibold text-latte-text">Engineering Intern</h3>
-              <span class="text-sm text-latte-overlay1 font-mono"
+              <h3 class="font-semibold text-tn-text">Engineering Intern</h3>
+              <span class="text-sm text-tn-overlay1 font-mono"
                 >May 2024 — Aug 2025</span
               >
             </div>
-            <p class="text-latte-sapphire text-sm font-medium">
+            <p class="text-tn-cyan text-sm font-medium">
               Parker Hannifin Corp · Winnipeg, MB
             </p>
             <ul
-              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+              class="mt-2 space-y-1 text-sm text-tn-subtext1 list-disc list-inside"
             >
               <li>
                 Authored an automated Python log parser to process testing data
@@ -384,42 +379,42 @@
       <!-- Projects -->
       <section class="mb-10">
         <h2
-          class="text-xl font-semibold text-latte-mauve border-b-2 border-latte-surface0 pb-2 mb-4"
+          class="text-xl font-semibold text-tn-purple border-b-2 border-tn-surface0 pb-2 mb-4"
         >
           Projects
         </h2>
         <div class="space-y-6">
           <div
-            class="rounded-lg border border-latte-surface1 bg-latte-mantle p-5"
+            class="rounded-lg border border-tn-surface1 bg-tn-mantle p-5"
           >
             <div
               class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between"
             >
-              <h3 class="font-semibold text-latte-text">
+              <h3 class="font-semibold text-tn-text">
                 Commercial LED Driver for Price Electronics
               </h3>
-              <span class="text-sm text-latte-overlay1">Capstone · Team of 5</span>
+              <span class="text-sm text-tn-overlay1">Capstone · Team of 5</span>
             </div>
             <div class="flex flex-wrap gap-1.5 mt-2">
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >Altium Designer</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >C</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >PIC32CM</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >LLC Resonant Converter</span
               >
             </div>
             <ul
-              class="mt-3 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+              class="mt-3 space-y-1 text-sm text-tn-subtext1 list-disc list-inside"
             >
               <li>
                 Designed and delivered a Class 2 LED driver for Price Electronics,
@@ -456,93 +451,51 @@
                 <img
                   src="images/led-driver-control-board.jpg"
                   alt="LED driver control board PCB with PIC32CM microcontroller"
-                  class="rounded-md border border-latte-surface1 w-full aspect-square object-cover"
+                  class="rounded-md border border-tn-surface1 w-full aspect-square object-cover"
                 />
-                <figcaption class="text-xs text-latte-overlay1 mt-1 text-center">Control Board</figcaption>
+                <figcaption class="text-xs text-tn-overlay1 mt-1 text-center">Control Board</figcaption>
               </figure>
               <figure>
                 <img
                   src="images/led-driver-power-up.jpg"
                   alt="LED driver powering an LED strip during bench testing"
-                  class="rounded-md border border-latte-surface1 w-full aspect-square object-cover"
+                  class="rounded-md border border-tn-surface1 w-full aspect-square object-cover"
                 />
-                <figcaption class="text-xs text-latte-overlay1 mt-1 text-center">Power-Up Test</figcaption>
+                <figcaption class="text-xs text-tn-overlay1 mt-1 text-center">Power-Up Test</figcaption>
               </figure>
             </div>
           </div>
 
           <div
-            class="rounded-lg border border-latte-surface1 bg-latte-mantle p-5"
+            class="rounded-lg border border-tn-surface1 bg-tn-mantle p-5"
           >
-            <h3 class="font-semibold text-latte-text">
-              Contact Manager Dashboard
-            </h3>
-            <div class="flex flex-wrap gap-1.5 mt-2">
-              <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
-                >Angular</span
-              >
-              <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
-                >TypeScript</span
-              >
-              <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
-                >Laravel</span
-              >
-              <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
-                >MySQL</span
-              >
-            </div>
-            <ul
-              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
-            >
-              <li>
-                Built a full-stack CRUD application for managing contacts,
-                featuring search, filtering, and form validation
-              </li>
-              <li>
-                Developed a RESTful API backend in Laravel with Eloquent ORM for
-                persistent storage in MySQL
-              </li>
-              <li>
-                Documented data model and API endpoints to support future
-                handoff and maintenance
-              </li>
-            </ul>
-          </div>
-
-          <div
-            class="rounded-lg border border-latte-surface1 bg-latte-mantle p-5"
-          >
-            <h3 class="font-semibold text-latte-text">
+            <h3 class="font-semibold text-tn-text">
               Client-Server Communication System
             </h3>
             <div class="flex flex-wrap gap-1.5 mt-2">
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >C</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >Java</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >Android Studio</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >PIC32MX7</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >TCP</span
               >
             </div>
             <ul
-              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+              class="mt-2 space-y-1 text-sm text-tn-subtext1 list-disc list-inside"
             >
               <li>
                 Designed and implemented a TCP-based client-server system
@@ -566,31 +519,31 @@
           </div>
 
           <div
-            class="rounded-lg border border-latte-surface1 bg-latte-mantle p-5"
+            class="rounded-lg border border-tn-surface1 bg-tn-mantle p-5"
           >
-            <h3 class="font-semibold text-latte-text">
+            <h3 class="font-semibold text-tn-text">
               Real-time Object Detection System
             </h3>
             <div class="flex flex-wrap gap-1.5 mt-2">
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >Python</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >Ultralytics YOLOv26s</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >OpenCV</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >ESP32</span
               >
             </div>
             <ul
-              class="mt-2 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+              class="mt-2 space-y-1 text-sm text-tn-subtext1 list-disc list-inside"
             >
               <li>
                 Trained a YOLOv26s model on a custom two-class dataset for
@@ -608,30 +561,30 @@
           </div>
 
           <div
-            class="rounded-lg border border-latte-surface1 bg-latte-mantle p-5"
+            class="rounded-lg border border-tn-surface1 bg-tn-mantle p-5"
           >
             <div
               class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between"
             >
-              <h3 class="font-semibold text-latte-text">
+              <h3 class="font-semibold text-tn-text">
                 Communication System for Deaf Curlers
               </h3>
-              <span class="text-sm text-latte-overlay1"
+              <span class="text-sm text-tn-overlay1"
                 >Awarded Best Design</span
               >
             </div>
             <div class="flex flex-wrap gap-1.5 mt-2">
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >Arduino</span
               >
               <span
-                class="px-2 py-0.5 text-xs rounded-full bg-latte-base text-latte-overlay2 border border-latte-surface0"
+                class="px-2 py-0.5 text-xs rounded-full bg-tn-base text-tn-overlay2 border border-tn-surface0"
                 >ESP32</span
               >
             </div>
             <ul
-              class="mt-3 space-y-1 text-sm text-latte-subtext1 list-disc list-inside"
+              class="mt-3 space-y-1 text-sm text-tn-subtext1 list-disc list-inside"
             >
               <li>
                 Designed and developed an assistive communication system for
@@ -652,17 +605,17 @@
                 <img
                   src="images/skip-controller.jpg"
                   alt="Skip controller — 3D-printed enclosure with OLED display and joystick"
-                  class="rounded-md border border-latte-surface1 w-full aspect-square object-cover"
+                  class="rounded-md border border-tn-surface1 w-full aspect-square object-cover"
                 />
-                <figcaption class="text-xs text-latte-overlay1 mt-1 text-center">Skip Controller</figcaption>
+                <figcaption class="text-xs text-tn-overlay1 mt-1 text-center">Skip Controller</figcaption>
               </figure>
               <figure>
                 <img
                   src="images/sweep-receiver.jpg"
                   alt="Sweep receiver mounted on curling broom with LED bar graph"
-                  class="rounded-md border border-latte-surface1 w-full aspect-square object-cover"
+                  class="rounded-md border border-tn-surface1 w-full aspect-square object-cover"
                 />
-                <figcaption class="text-xs text-latte-overlay1 mt-1 text-center">Sweep Receiver</figcaption>
+                <figcaption class="text-xs text-tn-overlay1 mt-1 text-center">Sweep Receiver</figcaption>
               </figure>
             </div>
           </div>
@@ -671,11 +624,11 @@
     </div>
 
     <!-- Footer -->
-    <footer class="border-t border-latte-surface0 mt-8">
+    <footer class="border-t border-tn-surface0 mt-8">
       <div
-        class="max-w-4xl mx-auto px-6 py-6 text-center text-sm text-latte-overlay1"
+        class="max-w-4xl mx-auto px-6 py-6 text-center text-sm text-tn-overlay1"
       >
-        <p>Built with Tailwind CSS — Catpuccin Latte</p>
+        <p>Built with Tailwind CSS — Tokyo Night</p>
       </div>
     </footer>
   </body>
